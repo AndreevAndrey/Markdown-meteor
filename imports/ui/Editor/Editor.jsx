@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import { EditPanel } from './EditPanel/EditPanel';
 import TurnDown from 'turndown';
-import { Comments } from '../../db/comments';
-
 
 export const Editor = () => {
   const [markdownText, setMarkdownText] = useState('');
