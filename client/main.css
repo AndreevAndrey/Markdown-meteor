@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background: #a0cdc9;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+#editor {
+  width: 100%;
+  background: #f8ebdf;
+  height: 50px;
+  flex-wrap: wrap;
+  outline: none;
+}
+
+.editPanel button {
+  background-color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.editPanel button:hover {
+  background-color: #DCDCDC;
+}
+
+.editPanel button svg {
+  border: none;
+  width: 15px;
+  height: 15px;
+}
+
+button:active,
+button:focus {
+  outline: none;
+}
+
+.sendComment {
+  margin: 20px;
+  background: #a0cdc9;
+}
+
+
